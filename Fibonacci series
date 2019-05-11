@@ -1,9 +1,12 @@
-
+# for how long series is required.
 nterms= int(input("How many terms of fibonacci series required? "))
+
+# initialising the first two numbers so that they can be added further and used to get the third number.
 
 a = 0
 b = 1
 
+# if the user gives the input as 1 then the first digit of series is printed.
 if nterms == 1:
     print(a)
 else:
